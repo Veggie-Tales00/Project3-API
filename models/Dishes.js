@@ -1,11 +1,11 @@
 const mongoose = require('../db/connection')
 
 const dishSchema = new mongoose.Schema({
-    "Dish": String,
-    "Price": Number,
-    "Pairings": [
-        {"ref": 'Wine',
-         "type": mongoose.Schema.Types.ObjectId
+    Dish: String,
+    Price: Number,
+    Pairings: [
+        {ref: "Wine",
+         type: mongoose.Schema.Types.ObjectId
         }
     ]
 })

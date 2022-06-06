@@ -1,18 +1,19 @@
 const mongoose = require('../db/connection')
 
 const wineSchema = new mongoose.Schema({
-    "Type": String,
-    "Variety": String,
-    "Producer": String,
-    "Vintage": Number,
-    "Price": {
-        "Bottle": Number,
-        "Glass": Number
+    Name: String,
+    Type: String,
+    Variety: String,
+    Producer: String,
+    Vintage: Number,
+    Price: {
+        Bottle: Number,
+        Glass: Number
     },
-    "Notes": [String],
-    "Pairings": [
-        {"ref": 'Food',
-         "type": ObjectId
+    Notes: [String],
+    Pairings: [
+        {ref: 'Food',
+         type: mongoose.Schema.Types.ObjectId
         }
     ]
 })
