@@ -9,8 +9,8 @@
             "Bottle": 36,
             "Glass": 9
         },
-        "Notes": ["Juicy", "Citrus", "Apple Aromas", "Subtle Oak accents"],
-        "Pairings": "N/A"
+        "Notes": ["Juicy", "Citrus", "Apple Aromas", "Subtle Oak accents"]
+        
     },
     {
         "Type": "White",
@@ -22,7 +22,7 @@
             "Bottle": 40,
             "Glass": 10
         },
-        "Notes": ["Bold", "Buttery", "Apple and Peach Aromas", "Oaky vanilla accents"],
-        "Pairings": "N/A"
+        "Notes": ["Bold", "Buttery", "Apple and Peach Aromas", "Oaky vanilla accents"]
+        
     }
 ]
