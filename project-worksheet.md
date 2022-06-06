@@ -74,3 +74,10 @@ Backend Routes will preform full CRUD Op Allowing a "admin user" to create updat
 ## Programming Schedual 
 
 The project will be a team collaberation using mainly mob programming but dividing work loads appropraitly.
+
+|Day| Front End | Goal |Back End | Goal|
+|----------|----------|----------|----------|----------|
+|Monday| Julia - Anas | Begin Init Dev | Jacob - Mike | Begin Init Dev |
+|Tuesday| Julia - Anas | Working UI | Jacob - Mike | Begin Init Dev | Seeded DB
+|Wednesday| Jacob - Mike | UI Logic | Julia - Anas | CRUD
+|Thursday| Jacob - Mike | Deployment | Julia - Anas | Deployment
