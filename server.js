@@ -5,7 +5,7 @@ const logger = require('morgan');
 const cors = require('cors');
 
 // Connections to controller files
-const winesController = require('./controllers/winessController')
+const winesController = require('./controllers/winesController')
 const dishesController = require('./controllers/dishesController')
 
 // Create express app
