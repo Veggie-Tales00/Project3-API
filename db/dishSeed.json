@@ -1,0 +1,12 @@
+[
+    {
+        "Dish": "Chicken Alfredo",
+        "Price": 20,
+        "Pairing": []
+    },
+    {
+        "Dish": "Chicken Fettechini",
+        "Price": 24,
+        "Pairing": []
+    }
+]
