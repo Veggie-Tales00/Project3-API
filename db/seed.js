@@ -1,10 +1,19 @@
 const Wine = require('../models/Wine')
+const Dish = require('../models/Dishes')
 
-const seedData = require('./seed.json')
+const wineData = require('./windSeed.json')
+const dishData = require('./dishSeed.json')
 
 Wine.deleteMany({}).then(()=>{
-    Wine.create(seedData).then(wineList =>{
+    Wine.create(wineData).then(wineList =>{
         console.log(wineList)
-        process.exit()
+    }).then(()=>{
+        Dish.deleteMany({}).then(()=>{
+            Dish.create(dishData).then(dishList =>{
+                console.log(dishList)
+                process.exit()
+            })
+        })
     })
 })
+
