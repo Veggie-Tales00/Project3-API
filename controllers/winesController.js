@@ -21,7 +21,7 @@ router.get('/:producer:variety:vintage', (req, res) => {
         Variety: req.params.variety,
         Vintage: req.params.vintage
     })
-        .then(wines => res.status(200).json({ wine: wine }))
+        .then(wine => res.status(200).json({ wine: wine }))
 })
 
 // POST add new wine /wines
