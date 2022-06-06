@@ -1,0 +1,28 @@
+[
+    {
+        "Type": "White",
+        "Variety": "Chardonnay",
+        "Location": "Columbia Vally",
+        "Producer": "Chateau Ste. Michelle",
+        "Vintage": "2020",
+        "Price": {
+            "Bottle": 36,
+            "Glass": 9
+        },
+        "Notes": ["Juicy", "Citrus", "Apple Aromas", "Subtle Oak accents"],
+        "Pairings": "N/A"
+    },
+    {
+        "Type": "White",
+        "Variety": "Chardonnay",
+        "Location": "California",
+        "Producer": "Robert Mondavi, 'Private Selection'",
+        "Vintage": "2019",
+        "Price": {
+            "Bottle": 40,
+            "Glass": 10
+        },
+        "Notes": ["Bold", "Buttery", "Apple and Peach Aromas", "Oaky vanilla accents"],
+        "Pairings": "N/A"
+    }
+]
