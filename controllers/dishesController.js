@@ -7,12 +7,14 @@ const router = express.Router();
 router.get('/', (req, res) => {
     Dishes.find({})
         .then(dishes => res.status(200).json({ dishes: dishes }))
+        .catch(err => res.status(404))
 })
 
 // GET single dishes /dishes/:dish
 router.get('/:dish', (req, res) => {
     Dishes.find({ Dish: req.params.dish })
         .then(dish => res.status(200).json({ dish: dish }))
+        .catch(err => res.status(404))
 })
 
 // POST add new dish /dishes/:dish
@@ -20,6 +22,7 @@ router.post('/', (req, res) => {
     const data = req.body;
     Dishes.create(data)
         .then(dish => res.status(201).json({ dish: dish }))
+        
 })
 
 // PATCH update dish /dishes/:dish
@@ -31,6 +34,7 @@ router.patch('/:dish', (req, res) => {
             Dishes.findByIdAndUpdate(id, data, { new: true })
                 .then(dish => res.status(200).json({ dish: dish }))
         })
+        .catch(err => res.status(404))
 
 })
 
@@ -42,6 +46,7 @@ router.delete('/:dish', (req, res) => {
             Dishes.findByIdAndDelete(id)
                 .then(() => res.status(204))
         })
+        .catch(err => res.status(404))
 })
 
 

@@ -7,6 +7,7 @@ const router = express.Router();
 router.get('/', (req, res) => {
     Wines.find({})
         .then(wines => res.status(200).json({ wines: wines }))
+        .catch(err => res.status(404))
 })
 
 // GET single wine by notes /wines/:notes
@@ -21,7 +22,8 @@ router.get('/:producer:variety:vintage', (req, res) => {
         Variety: req.params.variety,
         Vintage: req.params.vintage
     })
-        .then(wines => res.status(200).json({ wine: wine }))
+        .then(wine => res.status(200).json({ wine: wine }))
+        .catch(err => res.status(404))
 })
 
 // POST add new wine /wines
@@ -44,6 +46,7 @@ router.patch('/:producer:variety:vintage', (req, res) => {
             Wines.findByIdAndUpdate(id, data, { new: true })
                 .then(wine => res.status(200).json({ wine: wine }))
         })
+        .catch(err => res.status(404))
 })
 
 // Delete wine /wines/::producer:variety:vintage
@@ -59,6 +62,7 @@ router.delete('/:producer:variety:vintage', (req, res) => {
                 .then(() => res.status(204))
 
         })
+        .catch(err => res.status(404))
 
 })
 
