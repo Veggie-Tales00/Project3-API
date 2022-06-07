@@ -9,6 +9,6 @@ if (process.env.NODE_ENV === "production") {
   }
 
 mongoose.connect(mongoURI)
-// mongoose.connect("mongodb://127.0.0.1:27017/cooks_books_api")
+// mongoose.connect("mongodb://127.0.0.1:27017/")
 
 module.exports = mongoose

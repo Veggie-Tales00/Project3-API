@@ -11,7 +11,7 @@ router.get('/', (req, res) => {
 
 // GET single wine by notes /wines/:notes
 // router.get('/:notes', (req, res) => {
-    
+
 // })
 
 // GET singlewine by producer, variety, and vintage /wines/:producer:variety:vintage
@@ -40,9 +40,9 @@ router.patch('/:id', (req, res) => {
 router.delete('/:id', (req, res) => {
     const id = req.params.id;
     Wines.findByIdAndDelete(id)
-        .then(() => res.status(204)).then(()=>{
-            Wines.find({}).then((items)=>{
-                res.status(200).json({items: items})
+        .then(() => res.status(204)).then(() => {
+            Wines.find({}).then((items) => {
+                res.status(200).json({ items: items })
             })
         })
 
