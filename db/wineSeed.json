@@ -118,7 +118,7 @@
         "Pairings": []
     },
     {
-        "Type": "White",
+        "Type": "Other",
         "Variety": "White Zinfandel",
         "Location": "California",
         "Producer": "Copper Ridge",
@@ -134,7 +134,7 @@
         "Pairings": []
     },
     {
-        "Type": "White",
+        "Type": "Other",
         "Variety": "Riesling",
         "Location": "Colombia Valley",
         "Producer": "Chateau Ste. Michelle",
@@ -170,7 +170,7 @@
         "Pairings": []
     },
     {
-        "Type": "White",
+        "Type": "Other",
         "Variety": "Rosé",
         "Location": "California",
         "Producer": "Sofia, Coppola",
