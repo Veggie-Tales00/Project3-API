@@ -5,7 +5,82 @@
         "Pairing": []
     },
     {
-        "Dish": "Chicken Fettechini",
+        "Dish": "Chicken Fettuccine",
+        "Price": 24,
+        "Pairing": []
+    },
+    {
+        "Dish": "Seabass with Lentils",
+        "Price": 28,
+        "Pairing": []
+    },
+    {
+        "Dish": "Shrimp Scampi",
+        "Price": 28,
+        "Pairing": []
+    },
+    {
+        "Dish": "Spicy Pork Tenderloin with herbed potatoes and greens",
+        "Price": 25,
+        "Pairing": []
+    },
+    {
+        "Dish": "Pork Chop and Applesauce",
+        "Price": 24,
+        "Pairing": []
+    },
+    {
+        "Dish": "Steak Diane",
+        "Price": 24,
+        "Pairing": []
+    },
+    {
+        "Dish": "Ribeye with mushrooms",
+        "Price": 24,
+        "Pairing": []
+    },
+    {
+        "Dish": "Lamb Loin with garlic potatoes",
+        "Price": 24,
+        "Pairing": []
+    },
+    {
+        "Dish": "Rack of Lamb with mint sauce",
+        "Price": 24,
+        "Pairing": []
+    },
+    {
+        "Dish": "Vegetable Lasagne",
+        "Price": 24,
+        "Pairing": []
+    },
+    {
+        "Dish": "Ratatuille",
+        "Price": 24,
+        "Pairing": []
+    },
+    {
+        "Dish": "Fruit Plate",
+        "Price": 24,
+        "Pairing": []
+    },
+    {
+        "Dish": "Cheese Plate",
+        "Price": 24,
+        "Pairing": []
+    },
+    {
+        "Dish": "Chocolate Cake",
+        "Price": 24,
+        "Pairing": []
+    },
+    {
+        "Dish": "Caesar Salad",
+        "Price": 24,
+        "Pairing": []
+    },
+    {
+        "Dish": "Chopped Salad",
         "Price": 24,
         "Pairing": []
     }
