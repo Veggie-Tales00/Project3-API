@@ -13,7 +13,8 @@
             "juicy",
             "citrus",
             "apple",
-            "oak accents"
+            "oak accents",
+            "dry"
         ],
         "Pairings": []
     },
@@ -111,7 +112,8 @@
             "white flowers",
             "melon",
             "grassy",
-            "mineral nose"
+            "mineral nose",
+            "dry"
         ],
         "Pairings": []
     },
@@ -296,7 +298,8 @@
             "raspberry",
             "plum",
             "blueberry",
-            "oak accents"
+            "oak accents",
+            "dry"
         ],
         "Pairings": []
     },
@@ -317,7 +320,8 @@
             "cherry",
             "hazelnut",
             "cocoa powder",
-            "coffee accents"
+            "coffee accents",
+            "dry"
         ],
         "Pairings": []
     },
@@ -411,6 +415,57 @@
             "fruit-forward",
             "rich",
             "chocolate"
+        ],
+        "Pairings": []
+    },
+    {
+        "Type": "Dessert",
+        "Variety": "Port",
+        "Location": "Spain",
+        "Producer": "Dows Vintage Port",
+        "Vintage": 2016,
+        "Price": {
+            "Bottle": 60,
+            "Glass": 15
+        },
+        "Notes": [
+            "fruit-forward",
+            "rich",
+            "chocolate"
+        ],
+        "Pairings": []
+    },
+    {
+        "Type": "Dessert",
+        "Variety": "Eiswein",
+        "Location": "Canada",
+        "Producer": "Inniskillin Vidal Icewine",
+        "Vintage": 2018,
+        "Price": {
+            "Bottle": 60,
+            "Glass": 20
+        },
+        "Notes": [
+            "dense",
+            "rich",
+            "candied fruit"
+        ],
+        "Pairings": []
+    },
+    {
+        "Type": "Dessert",
+        "Variety": "Gewürztraminer",
+        "Location": "France",
+        "Producer": "Domaine Zind Humbrecht",
+        "Vintage": 2015,
+        "Price": {
+            "Bottle": 75,
+            "Glass": 25
+        },
+        "Notes": [
+            "honey",
+            "pineapple",
+            "apricot"
         ],
         "Pairings": []
     }
