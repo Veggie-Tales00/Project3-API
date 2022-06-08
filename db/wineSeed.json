@@ -12,13 +12,10 @@
         "Notes": [
             "juicy",
             "citrus",
-            "apple aromas",
-            "subtle oak accents"
+            "apple",
+            "oak accents"
         ],
-        "Pairings": [
-            "Chicken Alfredo",
-            "seafood"
-        ]
+        "Pairings": []
     },
     {
         "Type": "White",
@@ -33,16 +30,11 @@
         "Notes": [
             "bold",
             "buttery",
-            "applepeach",
-            "aromas",
+            "apple",
+            "peach",
             "oaky vanilla accents"
         ],
-        "Pairings": [
-            "chicken",
-            "seafood",
-            "pork",
-            "veggie"
-        ]
+        "Pairings": []
     },
     {
         "Type": "White",
@@ -62,10 +54,7 @@
             "lime",
             "barrel spice accent"
         ],
-        "Pairings": [
-            "chicken",
-            "seafood"
-        ]
+        "Pairings": []
     },
     {
         "Type": "White",
@@ -80,15 +69,12 @@
         "Notes": [
             "vibrant",
             "refreshing",
-            "tropical aromas",
+            "tropical",
             "passion fruit",
             "melon",
             "grapefruit accents"
         ],
-        "Pairings": [
-            "chicken",
-            "seafood"
-        ]
+        "Pairings": []
     },
     {
         "Type": "White",
@@ -104,13 +90,10 @@
             "bright",
             "fresh",
             "melon",
-            "tropical aromas",
+            "tropical",
             "crispy citrus accents"
         ],
-        "Pairings": [
-            "chicken",
-            "seafood"
-        ]
+        "Pairings": []
     },
     {
         "Type": "White",
@@ -123,19 +106,17 @@
         },
         "Notes": [
             "rich",
-            "zesty citrus",
+            "zesty",
+            "citrus",
             "white flowers",
             "melon",
             "grassy",
             "mineral nose"
         ],
-        "Pairings": [
-            "chicken",
-            "seafood"
-        ]
+        "Pairings": []
     },
     {
-        "Type": "Other",
+        "Type": "White",
         "Variety": "White Zinfandel",
         "Location": "California",
         "Producer": "Copper Ridge",
@@ -148,14 +129,10 @@
             "light body",
             "sweet"
         ],
-        "Pairings": [
-            "cheese",
-            "fruit",
-            "desserts"
-        ]
+        "Pairings": []
     },
     {
-        "Type": "Other",
+        "Type": "White",
         "Variety": "Riesling",
         "Location": "Colombia Valley",
         "Producer": "Chateau Ste. Michelle",
@@ -171,10 +148,7 @@
             "apricot",
             "pear"
         ],
-        "Pairings": [
-            "chicken",
-            "spicy"
-        ]
+        "Pairings": []
     },
     {
         "Type": "White",
@@ -188,16 +162,13 @@
         "Notes": [
             "juicy",
             "citrus",
-            "apple aromas",
-            "subtle oak accents"
+            "apple",
+            "oak accents"
         ],
-        "Pairings": [
-            "chicken",
-            "seafood"
-        ]
+        "Pairings": []
     },
     {
-        "Type": "Other",
+        "Type": "White",
         "Variety": "Rosé",
         "Location": "California",
         "Producer": "Sofia, Coppola",
@@ -212,11 +183,7 @@
             "crisp",
             "lavender"
         ],
-        "Pairings": [
-            "lamb",
-            "turkey",
-            "salad"
-        ]
+        "Pairings": []
     },
     {
         "Type": "Sparkling",
@@ -235,11 +202,7 @@
             "peach",
             "floral finish"
         ],
-        "Pairings": [
-            "cheeses",
-            "cured meats",
-            "fruits"
-        ]
+        "Pairings": []
     },
     {
         "Type": "Sparkling",
@@ -256,11 +219,7 @@
             "raspberry",
             "strawberry"
         ],
-        "Pairings": [
-            "chocolate",
-            "cheese",
-            "chicken"
-        ]
+        "Pairings": []
     },
     {
         "Type": "Sparkling",
@@ -273,17 +232,13 @@
             "Glass": -1
         },
         "Notes": [
-            "Balanced",
+            "balanced",
             "medium bodied",
             "cooked apple aroma",
             "hints of lemon",
             "white pepper"
         ],
-        "Pairings": [
-            "pork",
-            "cheese",
-            "seafood"
-        ]
+        "Pairings": []
     },
     {
         "Type": "Red",
@@ -297,17 +252,12 @@
         },
         "Notes": [
             "sweet",
-            "spicy aromas",
+            "spicy",
             "notes of vanilla",
             "coconut",
             "oak accent"
         ],
-        "Pairings": [
-            "steak",
-            "pork",
-            "chicken",
-            "cheese"
-        ]
+        "Pairings": []
     },
     {
         "Type": "Red",
@@ -328,12 +278,7 @@
             "vanilla",
             "toasted oak"
         ],
-        "Pairings": [
-            "beef",
-            "pork",
-            "lamb",
-            "chocolate"
-        ]
+        "Pairings": []
     },
     {
         "Type": "Red",
@@ -351,15 +296,9 @@
             "raspberry",
             "plum",
             "blueberry",
-            "sweet baking",
             "oak accents"
         ],
-        "Pairings": [
-            "beef",
-            "pork",
-            "lamb",
-            "chocolate"
-        ]
+        "Pairings": []
     },
     {
         "Type": "Red",
@@ -375,17 +314,12 @@
             "full and soft",
             "black currant",
             "blueberry",
-            "cherry aromas",
+            "cherry",
             "hazelnut",
             "cocoa powder",
             "coffee accents"
         ],
-        "Pairings": [
-            "beef",
-            "pork",
-            "lamb",
-            "chocolate"
-        ]
+        "Pairings": []
     },
     {
         "Type": "Red",
@@ -403,11 +337,7 @@
             "chocolate",
             "oak accents"
         ],
-        "Pairings": [
-            "lamb",
-            "fruit",
-            "pork"
-        ]
+        "Pairings": []
     },
     {
         "Type": "Red",
@@ -423,13 +353,9 @@
             "black cherry",
             "raspberry",
             "plum",
-            "fruit-forward finish"
+            "fruit-forward"
         ],
-        "Pairings": [
-            "lamb",
-            "fruit",
-            "pork"
-        ]
+        "Pairings": []
     },
     {
         "Type": "Red",
@@ -448,11 +374,7 @@
             "blackberry",
             "mocha"
         ],
-        "Pairings": [
-            "turkey",
-            "lamb",
-            "tomato-based dishes"
-        ]
+        "Pairings": []
     },
     {
         "Type": "Red",
@@ -467,17 +389,13 @@
         "Notes": [
             "delicate",
             "floral",
-            "dark cherry",
+            "black cherry",
             "persimmon",
-            "chocolate aromas",
+            "chocolate",
             "rich tannins",
             "medium finish"
         ],
-        "Pairings": [
-            "salmon",
-            "steak",
-            "feta"
-        ]
+        "Pairings": []
     },
     {
         "Type": "Red",
@@ -492,12 +410,8 @@
         "Notes": [
             "fruit-forward",
             "rich",
-            "chocolate  aromas"
+            "chocolate"
         ],
-        "Pairings": [
-            "turkey",
-            "lamb",
-            "tomato-based dishes"
-        ]
+        "Pairings": []
     }
 ]
