@@ -8,12 +8,12 @@ Wine.deleteMany({}).then(() => {
     Wine.create(wineData).then(wineList => {
         console.log(wineList)
     }).then(() => {
-        // Dish.deleteMany({}).then(()=>{
-        //     Dish.create(dishData).then(dishList =>{
-        //         console.log(dishList)
-        //         process.exit()
-        //     })
-        // })
+        Dish.deleteMany({}).then(() => {
+            Dish.create(dishData).then(dishList => {
+                console.log(dishList)
+                process.exit()
+            })
+        })
     })
 })
 
