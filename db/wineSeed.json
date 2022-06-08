@@ -2,29 +2,502 @@
     {
         "Type": "White",
         "Variety": "Chardonnay",
-        "Location": "Columbia Vally",
+        "Location": "Columbia Valley",
         "Producer": "Chateau Ste. Michelle",
-        "Vintage": "2020",
+        "Vintage": 2020,
         "Price": {
             "Bottle": 36,
             "Glass": 9
         },
-        "Notes": ["Juicy", "Citrus", "Apple Aromas", "Subtle Oak accents"]
-        
+        "Notes": [
+            "juicy",
+            "citrus",
+            "apple aromas",
+            "subtle oak accents"
+        ],
+        "Pairings": [
+            "Chicken Alfredo",
+            "seafood"
+        ]
     },
     {
         "Type": "White",
         "Variety": "Chardonnay",
         "Location": "California",
-        "Producer": "Robert Mondavi, 'Private Selection'",
-        "Vintage": "2019",
+        "Producer": "Robert Mondavi, ‘Private Selection’",
+        "Vintage": 2019,
         "Price": {
             "Bottle": 40,
             "Glass": 10
         },
-        "Notes": ["Bold", "Buttery", "Apple and Peach Aromas", "Oaky vanilla accents"]
-        
+        "Notes": [
+            "bold",
+            "buttery",
+            "applepeach",
+            "aromas",
+            "oaky vanilla accents"
+        ],
+        "Pairings": [
+            "chicken",
+            "seafood",
+            "pork",
+            "veggie"
+        ]
+    },
+    {
+        "Type": "White",
+        "Variety": "Chardonnay",
+        "Location": "Russian River",
+        "Producer": "Sonoma-Cutrer",
+        "Vintage": 2019,
+        "Price": {
+            "Bottle": 68,
+            "Glass": 17
+        },
+        "Notes": [
+            "zesty",
+            "balanced",
+            "citrus",
+            "green apple",
+            "lime",
+            "barrel spice accent"
+        ],
+        "Pairings": [
+            "chicken",
+            "seafood"
+        ]
+    },
+    {
+        "Type": "White",
+        "Variety": "Sauvignon Blanc",
+        "Location": "Marlborough, New Zealand",
+        "Producer": "Kim Crawford",
+        "Vintage": 2020,
+        "Price": {
+            "Bottle": 68,
+            "Glass": 17
+        },
+        "Notes": [
+            "vibrant",
+            "refreshing",
+            "tropical aromas",
+            "passion fruit",
+            "melon",
+            "grapefruit accents"
+        ],
+        "Pairings": [
+            "chicken",
+            "seafood"
+        ]
+    },
+    {
+        "Type": "White",
+        "Variety": "Sauvignon Blanc",
+        "Producer": "Rodney Strong, ‘Charlotte’s Home’",
+        "Location": "California",
+        "Vintage": 2019,
+        "Price": {
+            "Bottle": 36,
+            "Glass": 9
+        },
+        "Notes": [
+            "bright",
+            "fresh",
+            "melon",
+            "tropical aromas",
+            "crispy citrus accents"
+        ],
+        "Pairings": [
+            "chicken",
+            "seafood"
+        ]
+    },
+    {
+        "Type": "White",
+        "Variety": "Sauvignon Blanc",
+        "Producer": "Cakebread",
+        "Vintage": 2020,
+        "Price": {
+            "Bottle": 56,
+            "Glass": 14
+        },
+        "Notes": [
+            "rich",
+            "zesty citrus",
+            "white flowers",
+            "melon",
+            "grassy",
+            "mineral nose"
+        ],
+        "Pairings": [
+            "chicken",
+            "seafood"
+        ]
+    },
+    {
+        "Type": "Other",
+        "Variety": "White Zinfandel",
+        "Location": "California",
+        "Producer": "Copper Ridge",
+        "Vintage": 2019,
+        "Price": {
+            "Bottle": 36,
+            "Glass": 9
+        },
+        "Notes": [
+            "light body",
+            "sweet"
+        ],
+        "Pairings": [
+            "cheese",
+            "fruit",
+            "desserts"
+        ]
+    },
+    {
+        "Type": "Other",
+        "Variety": "Riesling",
+        "Location": "Colombia Valley",
+        "Producer": "Chateau Ste. Michelle",
+        "Vintage": 2020,
+        "Price": {
+            "Bottle": 36,
+            "Glass": 9
+        },
+        "Notes": [
+            "sweet",
+            "zesty",
+            "white peach",
+            "apricot",
+            "pear"
+        ],
+        "Pairings": [
+            "chicken",
+            "spicy"
+        ]
+    },
+    {
+        "Type": "White",
+        "Variety": "Pinot Grigio",
+        "Producer": "Coppola",
+        "Vintage": 2019,
+        "Price": {
+            "Bottle": 40,
+            "Glass": 10
+        },
+        "Notes": [
+            "juicy",
+            "citrus",
+            "apple aromas",
+            "subtle oak accents"
+        ],
+        "Pairings": [
+            "chicken",
+            "seafood"
+        ]
+    },
+    {
+        "Type": "Other",
+        "Variety": "Rosé",
+        "Location": "California",
+        "Producer": "Sofia, Coppola",
+        "Vintage": 2018,
+        "Price": {
+            "Bottle": 70,
+            "Glass": 11
+        },
+        "Notes": [
+            "tart",
+            "delicate",
+            "crisp",
+            "lavender"
+        ],
+        "Pairings": [
+            "lamb",
+            "turkey",
+            "salad"
+        ]
+    },
+    {
+        "Type": "Sparkling",
+        "Variety": "Prosecco",
+        "Location": "Veneto, Italy",
+        "Producer": "Ruffino",
+        "Vintage": 2022,
+        "Price": {
+            "Bottle": 40,
+            "Glass": 10
+        },
+        "Notes": [
+            "off-dry",
+            "pear",
+            "apple",
+            "peach",
+            "floral finish"
+        ],
+        "Pairings": [
+            "cheeses",
+            "cured meats",
+            "fruits"
+        ]
+    },
+    {
+        "Type": "Sparkling",
+        "Variety": " Brut Rosé",
+        "Producer": "Gratien & Meyer",
+        "Vintage": 2020,
+        "Price": {
+            "Bottle": 36,
+            "Glass": 9
+        },
+        "Notes": [
+            "soft",
+            "fruity",
+            "raspberry",
+            "strawberry"
+        ],
+        "Pairings": [
+            "chocolate",
+            "cheese",
+            "chicken"
+        ]
+    },
+    {
+        "Type": "Sparkling",
+        "Variety": "Champagne",
+        "Location": "Champagne, France",
+        "Producer": "Dom Perignon",
+        "Vintage": 2010,
+        "Price": {
+            "Bottle": 290,
+            "Glass": -1
+        },
+        "Notes": [
+            "Balanced",
+            "medium bodied",
+            "cooked apple aroma",
+            "hints of lemon",
+            "white pepper"
+        ],
+        "Pairings": [
+            "pork",
+            "cheese",
+            "seafood"
+        ]
+    },
+    {
+        "Type": "Red",
+        "Variety": "Cabernet Sauvignon",
+        "Location": "Alexander Valley",
+        "Producer": "Silver Oak",
+        "Vintage": 2017,
+        "Price": {
+            "Bottle": 104,
+            "Glass": 26
+        },
+        "Notes": [
+            "sweet",
+            "spicy aromas",
+            "notes of vanilla",
+            "coconut",
+            "oak accent"
+        ],
+        "Pairings": [
+            "steak",
+            "pork",
+            "chicken",
+            "cheese"
+        ]
+    },
+    {
+        "Type": "Red",
+        "Variety": "Cabernet Sauvignon",
+        "Location": "California",
+        "Producer": "Josh Cellars",
+        "Vintage": 2019,
+        "Price": {
+            "Bottle": 36,
+            "Glass": 9
+        },
+        "Notes": [
+            "juicy",
+            "round",
+            "blackberry",
+            "toasted hazelnut",
+            "cinnamon",
+            "vanilla",
+            "toasted oak"
+        ],
+        "Pairings": [
+            "beef",
+            "pork",
+            "lamb",
+            "chocolate"
+        ]
+    },
+    {
+        "Type": "Red",
+        "Variety": "Cabernet Sauvignon",
+        "Location": "Sonoma, California",
+        "Producer": "Duckhorn Decoy",
+        "Vintage": 2019,
+        "Price": {
+            "Bottle": 64,
+            "Glass": 16
+        },
+        "Notes": [
+            "silky tannins",
+            "balanced",
+            "raspberry",
+            "plum",
+            "blueberry",
+            "sweet baking",
+            "oak accents"
+        ],
+        "Pairings": [
+            "beef",
+            "pork",
+            "lamb",
+            "chocolate"
+        ]
+    },
+    {
+        "Type": "Red",
+        "Variety": "Cabernet Sauvignon",
+        "Location": "Paso Robles, California",
+        "Producer": "J. Lohr, Seven Oaks",
+        "Vintage": 2016,
+        "Price": {
+            "Bottle": 48,
+            "Glass": 12
+        },
+        "Notes": [
+            "full and soft",
+            "black currant",
+            "blueberry",
+            "cherry aromas",
+            "hazelnut",
+            "cocoa powder",
+            "coffee accents"
+        ],
+        "Pairings": [
+            "beef",
+            "pork",
+            "lamb",
+            "chocolate"
+        ]
+    },
+    {
+        "Type": "Red",
+        "Variety": "Merlot",
+        "Location": "Washington",
+        "Producer": "14 hands",
+        "Vintage": 2018,
+        "Price": {
+            "Bottle": 44,
+            "Glass": 11
+        },
+        "Notes": [
+            "fruit-forward",
+            "mocha",
+            "chocolate",
+            "oak accents"
+        ],
+        "Pairings": [
+            "lamb",
+            "fruit",
+            "pork"
+        ]
+    },
+    {
+        "Type": "Red",
+        "Variety": "Merlot",
+        "Producer": "Chateau Ste. Michelle",
+        "Vintage": 2019,
+        "Price": {
+            "Bottle": 56,
+            "Glass": 14
+        },
+        "Notes": [
+            "rustic undertones",
+            "black cherry",
+            "raspberry",
+            "plum",
+            "fruit-forward finish"
+        ],
+        "Pairings": [
+            "lamb",
+            "fruit",
+            "pork"
+        ]
+    },
+    {
+        "Type": "Red",
+        "Variety": "Pinot Noir",
+        "Producer": "Meiomi",
+        "Vintage": 2019,
+        "Price": {
+            "Bottle": 64,
+            "Glass": 16
+        },
+        "Notes": [
+            "rich",
+            "balanced",
+            "jammy",
+            "boysenberry",
+            "blackberry",
+            "mocha"
+        ],
+        "Pairings": [
+            "turkey",
+            "lamb",
+            "tomato-based dishes"
+        ]
+    },
+    {
+        "Type": "Red",
+        "Variety": "Pinot Noir",
+        "Location": "Oregon",
+        "Producer": "Elouan",
+        "Vintage": 2018,
+        "Price": {
+            "Bottle": 72,
+            "Glass": 18
+        },
+        "Notes": [
+            "delicate",
+            "floral",
+            "dark cherry",
+            "persimmon",
+            "chocolate aromas",
+            "rich tannins",
+            "medium finish"
+        ],
+        "Pairings": [
+            "salmon",
+            "steak",
+            "feta"
+        ]
+    },
+    {
+        "Type": "Red",
+        "Variety": "Blend",
+        "Location": "California",
+        "Producer": "The Prisoner",
+        "Vintage": 2020,
+        "Price": {
+            "Bottle": 40,
+            "Glass": 10
+        },
+        "Notes": [
+            "fruit-forward",
+            "rich",
+            "chocolate  aromas"
+        ],
+        "Pairings": [
+            "turkey",
+            "lamb",
+            "tomato-based dishes"
+        ]
     }
-
-
 ]
