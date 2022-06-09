@@ -14,9 +14,15 @@ router.get('/', (req, res) => {
 
 // })
 
-// GET singlewine by producer, variety, and vintage /wines/:producer:variety:vintage
+// GET single wine by producer wines/:producer
 router.get('/:producer', (req, res) => {
     Wines.find({ Producer: req.params.producer })
+        .then(wine => res.status(200).json({ wine: wine }))
+})
+
+// GET single wine by type wines/:type
+router.get('/:type', (req, res) => {
+    Wines.find({ Type: req.params.type })
         .then(wine => res.status(200).json({ wine: wine }))
 })
 
