@@ -1,7 +1,7 @@
 const mongoose = require("../db/connection");
 
 const wineSchema = new mongoose.Schema({
-    Name: {
+    Location: {
         type: String,
         required: true
     },
@@ -28,7 +28,7 @@ const wineSchema = new mongoose.Schema({
     Notes: [{
         type: String,
         required: true,
-        enum: ["juicy", "citrus", "apple", "oak accents", "bold", "buttery", "peach", "oaky vanilla accents", "zesty", "balanced", "green apple", "lime", "barrel spice accent", "vibrant", "refreshing", "tropical", "passion fruit", "melon", "grapefruit accents", "bright", "fresh", "crispy citrus accents", "rich", "white flowers", "grassy", "mineral nose", "light body", "sweet", "white peach", "apricot", "pear", "tart", "delicate", "crisp", "lavender", "off-dry", "floral finish", "soft", "fruity", "raspberry", "strawberry", "medium bodied", "cooked apple aroma", "hints of lemon", "white pepper", "spicy", "notes of vanilla", "coconut", "oak accent", "round", "blackberry", "toasted hazelnut", "cinnamon", "vanilla", "toasted oak", "silky tannins", "plum", "blueberry", "full and soft", "black currant", "cherry", "hazelnut", "cocoa powder", "coffee accents", "fruit-forward", "mocha", "chocolate", "rustic undertones", "black cherry", "jammy", "boysenberry", "floral", "persimmon", "rich tannins", "medium finish"]
+        enum: ["juicy", "citrus", "apple", "oak accents", "bold", "buttery", "peach", "oaky vanilla accents", "zesty", "balanced", "green apple", "lime", "barrel spice accent", "vibrant", "refreshing", "tropical", "passion fruit", "melon", "grapefruit accents", "bright", "fresh", "crispy citrus accents", "rich", "white flowers", "grassy", "mineral nose", "light body", "sweet", "white peach", "apricot", "pear", "tart", "delicate", "crisp", "lavender", "off-dry", "floral finish", "soft", "fruity", "raspberry", "strawberry", "medium bodied", "cooked apple aroma", "hints of lemon", "white pepper", "spicy", "notes of vanilla", "coconut", "oak accent", "round", "blackberry", "toasted hazelnut", "cinnamon", "vanilla", "toasted oak", "silky tannins", "plum", "blueberry", "full and soft", "black currant", "cherry", "hazelnut", "cocoa powder", "coffee accents", "fruit-forward", "mocha", "chocolate", "rustic undertones", "black cherry", "jammy", "boysenberry", "floral", "persimmon", "rich tannins", "medium finish", "dry"]
     }],
     Pairings: [{
         ref: "Food",
