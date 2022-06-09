@@ -32,7 +32,9 @@ router.patch('/:id', (req, res) => {
     const id = req.params.id;
     const data = req.body;
     Wines.findByIdAndUpdate(id, data, { new: true })
-        .then(wine => res.status(200).json({ wine: wine }))
+        .then(Wines.find({})
+            .then(wines => res.status(200).json({ wines: wines }))
+        )
 })
 
 
