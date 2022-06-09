@@ -100,6 +100,7 @@
         "Type": "White",
         "Variety": "Sauvignon Blanc",
         "Producer": "Cakebread",
+        "Location": "California",
         "Vintage": 2020,
         "Price": {
             "Bottle": 56,
@@ -155,6 +156,7 @@
     {
         "Type": "White",
         "Variety": "Pinot Grigio",
+        "Location": "Colombia Valley",
         "Producer": "Coppola",
         "Vintage": 2019,
         "Price": {
@@ -210,6 +212,7 @@
         "Type": "Sparkling",
         "Variety": " Brut Rosé",
         "Producer": "Gratien & Meyer",
+        "Location": "Colombia Valley",
         "Vintage": 2020,
         "Price": {
             "Bottle": 36,
@@ -347,6 +350,7 @@
         "Type": "Red",
         "Variety": "Merlot",
         "Producer": "Chateau Ste. Michelle",
+        "Location": "Colombia Valley",
         "Vintage": 2019,
         "Price": {
             "Bottle": 56,
@@ -365,6 +369,7 @@
         "Type": "Red",
         "Variety": "Pinot Noir",
         "Producer": "Meiomi",
+        "Location": "Colombia Valley",
         "Vintage": 2019,
         "Price": {
             "Bottle": 64,
