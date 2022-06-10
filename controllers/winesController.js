@@ -10,13 +10,14 @@ router.get('/', (req, res) => {
 })
 
 // GET single wine by producer wines/:producer
-router.get('/:producer', (req, res) => {
-    Wines.find({ Producer: req.params.producer })
-        .then(wine => res.status(200).json({ wine: wine }))
-})
+// router.get('/:producer', (req, res) => {
+//     Wines.find({ Producer: req.params.producer })
+//         .then(wine => res.status(200).json({ wine: wine }))
+// })
 
 // GET wines by type wines/:type
 router.get('/:type', (req, res) => {
+    console.log(req.params.type)
     Wines.find({ Type: req.params.type })
         .then(wine => res.status(200).json({ wine: wine }))
 })
@@ -42,6 +43,7 @@ router.patch('/:id', (req, res) => {
 // Delete wine /wines/::producer:variety:vintage
 router.delete('/:id', (req, res) => {
     const id = req.params.id;
+    
     Wines.findByIdAndDelete(id)
         .then(() => res.status(204)).then(() => {
             Wines.find({}).then((items) => {
